@@ -1,20 +1,6 @@
 import java.util.*;
 
 public class P172928OtherAnswer {
-    
-    public static void main(String[] args) {
-        String[] park = { "SOO", "OOO", "OOO" };
-        String[] routes = { "E 2", "S 2", "W 1" };
-        int[] solution = solution(park, routes);
-
-        System.out.println();
-
-        System.out.println(Arrays.toString(solution));
-
-        System.out.println();
-        
-    }
-
 
     public static int[] solution(String[] park, String[] routes) {
         int rows = park.length;

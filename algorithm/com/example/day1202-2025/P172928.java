@@ -1,20 +1,8 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/172928
 
-import java.util.Arrays;
+import java.util.*;
 
 public class P172928 {
-    public static void main(String[] args) {
-        String[] park = { "SOO", "OOO", "OOO" };
-        String[] routes = { "E 2", "S 2", "W 1" };
-        int[] solution = solution(park, routes);
-
-        System.out.println();
-
-        System.out.println(Arrays.toString(solution));
-
-        System.out.println();
-        
-    }
 
     public static int[] solution(String[] park, String[] routes) {
         int[] answer = {0, 0};
